@@ -10,7 +10,7 @@ public class HelloWorldController {
 
   @GetMapping("/")
   public String getCurrentUser() {
-    return "hello world";
+    return "hello jenkins world";
   }
 }
 
